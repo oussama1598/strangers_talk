@@ -34,8 +34,8 @@ def look_for_stranger(data):
 
 
 @socketio.on('user_typing')
-def user_typing(data):
-    chat_app.user_typing_to(request.sid, data)
+def user_typing():
+    chat_app.user_typing_to(request.sid)
 
 
 @socketio.on('message_stranger')

@@ -13,5 +13,6 @@
         "socketio",
         "tbody",
         "worldometers"
-    ]
+    ],
+    "python.pythonPath": "/home/red-scule/.local/share/virtualenvs/strangers_talk-6FzbjcPE/bin/python"
 }

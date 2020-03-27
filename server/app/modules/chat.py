@@ -42,7 +42,7 @@ class Chat:
         emit('stranger_found', {'strangers_id': peer_id}, room=sid)
         emit('stranger_found', {'strangers_id': sid}, room=peer_id)
 
-    def user_typing_to(self, sid, data):
+    def user_typing_to(self, sid):
         client_to_id = self.clients[sid].talking_to
 
         emit('stranger_typing', room=client_to_id)
